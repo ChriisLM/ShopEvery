@@ -1,0 +1,14 @@
+
+.filters-section{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.priceFilter-container{
+  display: flex;
+  gap: 1rem;
+}
+.categoryFilter-container{
+  display: flex;
+  gap: 1rem;
+}

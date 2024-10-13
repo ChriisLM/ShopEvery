@@ -1,0 +1,41 @@
+header{
+  display: flex;
+  background-color: bisque;
+  justify-content: space-around;
+  align-items: center;
+  height: 5rem;
+}
+
+.header-title-container>h1{
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 2.5em;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  gap: 2.25em;
+}
+
+li{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+li:nth-child(1){
+  border-bottom: 2px solid darksalmon;
+}
+
+.icons-container{
+  display: flex;
+  gap: 1.25em;
+}
+
+.icons-container>svg{
+  width: 1.5em;
+  height: auto;
+  stroke-width: 1.5;
+}

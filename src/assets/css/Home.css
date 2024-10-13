@@ -1,0 +1,13 @@
+.productos-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-inline: 11rem;
+  flex-wrap: wrap;
+  row-gap: 3em;
+  padding-block: 6rem;
+}
+
+.container{
+  background-color: blanchedalmond;
+}

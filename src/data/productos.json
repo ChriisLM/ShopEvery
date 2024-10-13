@@ -1,0 +1,402 @@
+[
+  {
+      "id": 1,
+      "nombre": "Camiseta Básica",
+      "precio": 67300,
+      "categoria": "Ropa",
+      "descripción": "Camiseta de algodón 100% disponible en varios colores.",
+      "imagen": "https://cooper.com.co/cdn/shop/files/2_0f7e6a61-49df-4048-b6b8-f003ae8a675e.png?v=1722094034"
+  },
+  {
+      "id": 2,
+      "nombre": "Jeans Ajustados",
+      "precio": 210600,
+      "categoria": "Ropa",
+      "descripción": "Jeans ajustados con un diseño moderno.",
+      "imagen": "https://www.protecto.com.co/wp-content/uploads/2023/09/pantalon-jean-hombre.png"
+  },
+  {
+      "id": 3,
+      "nombre": "Zapatillas Deportivas",
+      "precio": 379100,
+      "categoria": "Calzado",
+      "descripción": "Zapatillas cómodas para entrenamiento y uso diario.",
+      "imagen": "https://images.ctfassets.net/hnk2vsx53n6l/1UyFnRWMDRY3PHxFzI9Ppq/18a152e56ac4120dfd7ffee5a8751d07/5fa0f2c121c33a11043212e5e987453e2422d07d.png?fm=webp"
+  },
+  {
+      "id": 4,
+      "nombre": "Reloj Inteligente",
+      "precio": 842600,
+      "categoria": "Electronica",
+      "descripción": "Reloj inteligente con múltiples funciones.",
+      "imagen": "https://acis.org.co/portal/sites/default/files/watch%20fit-.png"
+  },
+  {
+      "id": 5,
+      "nombre": "Auriculares Inalámbricos",
+      "precio": 252700,
+      "categoria": "Electronica",
+      "descripción": "Auriculares bluetooth con sonido de alta calidad.",
+      "imagen": "https://d2b8wt72ktn9a2.cloudfront.net/mediocre/image/upload/c_pad,f_auto,dpr_2.0,h_368,q_auto,w_368/m4fujvn286qizhd5ocqj.png"
+  },
+  {
+      "id": 6,
+      "nombre": "Mochila Escolar",
+      "precio": 168400,
+      "categoria": "Accesorios",
+      "descripción": "Mochila con compartimentos múltiples para el colegio.",
+      "imagen": "https://tottomexico.vteximg.com.br/arquivos/ids/177898-1000-1000/ACUARELA-1810N-6LI_D.png?v=636658729270530000"
+  },
+  {
+      "id": 7,
+      "nombre": "Portátil 15inch",
+      "precio": 3791800,
+      "categoria": "Electronica",
+      "descripción": "Portátil con procesador i5 y 16GB de RAM.",
+      "imagen": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08154296.png"
+  },
+  {
+      "id": 8,
+      "nombre": "Cafetera Espresso",
+      "precio": 631900,
+      "categoria": "Hogar",
+      "descripción": "Cafetera que prepara espresso en minutos.",
+      "imagen": "https://pepeganga.vtexassets.com/arquivos/ids/692359/100561737-1.png?v=637792548506600000"
+  },
+  {
+      "id": 9,
+      "nombre": "Sofá de 3 Plazas",
+      "precio": 2106500,
+      "categoria": "Muebles",
+      "descripción": "Sofá cómodo y elegante para tu sala.",
+      "imagen": "https://assets.boconcept.com/e2ef6cbb-efca-43a6-886a-b1aa01483ed4/2703842_PNG-Web%2072dpi.png?format=pjpg&auto=webp&fit=bounds&width=3020&quality=75%2C60"
+  },
+  {
+      "id": 10,
+      "nombre": "Cargador Solar",
+      "precio": 126300,
+      "categoria": "Accesorios",
+      "descripción": "Cargador portátil que funciona con energía solar.",
+      "imagen": "https://www.planetaeco.com.py/sites/default/files/styles/uc_product_full/public/imagenes/productos/cargador-carpeta2.png?itok=3y74Ha0Z"
+  },
+  {
+      "id": 11,
+      "nombre": "Botella de Agua Reutilizable",
+      "precio": 54700,
+      "categoria": "Accesorios",
+      "descripción": "Botella de acero inoxidable, ideal para llevar a cualquier lugar.",
+      "imagen": "https://pawlineshop.com/cdn/shop/files/Botellatraseraconlogo.png?v=1726486986&width=1946"
+  },
+  {
+      "id": 12,
+      "nombre": "Chaqueta Impermeable",
+      "precio": 337000,
+      "categoria": "Ropa",
+      "descripción": "Chaqueta ligera y resistente al agua.",
+      "imagen": "https://www.foxracing.com.co/cdn/shop/products/30107_001_1.png?v=1707125313"
+  },
+  {
+      "id": 13,
+      "nombre": "Mesa de Comedor",
+      "precio": 1474500,
+      "categoria": "Muebles",
+      "descripción": "Mesa de comedor de madera, ideal para 6 personas.",
+      "imagen": "https://www.maderasmilmar.com/wp-content/uploads/2024/01/TRIPODE__20_-removebg-preview-300x300.png"
+  },
+  {
+      "id": 14,
+      "nombre": "Set de Maquillaje",
+      "precio": 193700,
+      "categoria": "Belleza",
+      "descripción": "Set completo de maquillaje para todo tipo de piel.",
+      "imagen": "https://png.pngtree.com/png-clipart/20231127/original/pngtree-makeup-kit-png-image_13717965.png"
+  },
+  {
+      "id": 15,
+      "nombre": "Juego de Sábanas",
+      "precio": 168400,
+      "categoria": "Hogar",
+      "descripción": "Juego de sábanas de microfibra suave y duradero.",
+      "imagen": "https://pepeganga.vteximg.com.br/arquivos/ids/1159540/125919953-1.png?v=638573661439200000?1727395200011"
+  },
+  {
+      "id": 16,
+      "nombre": "Lámpara LED",
+      "precio": 109500,
+      "categoria": "Hogar",
+      "descripción": "Lámpara LED regulable con diferentes temperaturas de color.",
+      "imagen": "https://cdn11.bigcommerce.com/s-7oxj3r7pk9/images/stencil/1280x1280/products/781/5952/TL-4440.B40_01__80602.1725494878.png?c=1&imbypass=on"
+  },
+  {
+      "id": 17,
+      "nombre": "Cámara de Seguridad",
+      "precio": 631900,
+      "categoria": "Electronica",
+      "descripción": "Cámara de seguridad con visión nocturna y conexión Wi-Fi.",
+      "imagen": "https://mastronics.vtexassets.com/arquivos/ids/160673/Camara-de-Seguridad-Exteriores-Kalley-K-CEX-Wifi-Blanco-2.png?v=638420885125300000"
+  },
+  {
+      "id": 18,
+      "nombre": "Pelota de Fútbol",
+      "precio": 84200,
+      "categoria": "Deportes",
+      "descripción": "Pelota de fútbol de alta calidad para uso profesional.",
+      "imagen": "https://dismovel.com/wp-content/uploads/2024/01/Balon-de-Futbol-Molten-F5R3100-RK.png"
+  },
+  {
+      "id": 19,
+      "nombre": "Patinete Eléctrico",
+      "precio": 1685200,
+      "categoria": "Transporte",
+      "descripción": "Patinete eléctrico con una autonomía de 30 km.",
+      "imagen": "https://emovethings.com/3198-large_default/patinete-electrico-reebok-urban-85p.jpg"
+  },
+  {
+      "id": 20,
+      "nombre": "Auriculares Gaming",
+      "precio": 379100,
+      "categoria": "Electronica",
+      "descripción": "Auriculares con micrófono para gamers.",
+      "imagen": "https://servisistemas.com.co/262/auriculares-gaming-inalambricos-hs70-pro-color-crema.jpg"
+  },
+  {
+      "id": 21,
+      "nombre": "Almohada de Espuma",
+      "precio": 147400,
+      "categoria": "Hogar",
+      "descripción": "Almohada ergonómica de espuma viscoelástica.",
+      "imagen": "https://png.pngtree.com/png-vector/20240705/ourmid/pngtree-choosing-the-perfect-white-pillow-for-your-bedroom-png-image_12985313.png"
+  },
+  {
+      "id": 22,
+      "nombre": "Tenedor de Cocina",
+      "precio": 42000,
+      "categoria": "Cocina",
+      "descripción": "Tenedor de acero inoxidable de alta calidad.",
+      "imagen": "https://212global.com/wp-content/uploads/2024/07/6478a28650b6d315c4620959_thumbnail.png"
+  },
+  {
+      "id": 23,
+      "nombre": "Ropa de Cama",
+      "precio": 252700,
+      "categoria": "Hogar",
+      "descripción": "Ropa de cama suave y cómoda.",
+      "imagen": "https://bechester.com/cdn/shop/collections/ropa-de-cama.png?v=1712158646"
+  },
+  {
+      "id": 24,
+      "nombre": "Cafetera de Goteo",
+      "precio": 168400,
+      "categoria": "Hogar",
+      "descripción": "Cafetera de goteo automática.",
+      "imagen": "https://compraciertacol.vteximg.com.br/arquivos/ids/167939-1000-1000/image-91b0ac99cb4942a09ee32d3cb69f4deb.jpg?v=637709690182500000"
+  },
+  {
+      "id": 25,
+      "nombre": "Gafas de Sol",
+      "precio": 126300,
+      "categoria": "Accesorios",
+      "descripción": "Gafas de sol UV400 con diseño moderno.",
+      "imagen": "https://assets2.persol.com/cdn-record-files-pi/979653bb-c87a-4bb3-87b1-ad2c010f8970/696e97c0-bdec-4c20-91a1-ad2c010f8af9/0PO3272S__95_48__STD__shad__qt.png?impolicy=HB_parameters_transp&wid=650"
+  },
+  {
+      "id": 26,
+      "nombre": "Silla Ergonomica",
+      "precio": 842600,
+      "categoria": "Muebles",
+      "descripción": "Silla ergonómica ajustable para oficina.",
+      "imagen": "https://sillagamer.com.co/wp-content/uploads/2024/03/2-5.png"
+  },
+  {
+      "id": 27,
+      "nombre": "Secador de Pelo",
+      "precio": 210600,
+      "categoria": "Belleza",
+      "descripción": "Secador de pelo potente y ligero.",
+      "imagen": "https://gonka.com.co/wp-content/uploads/2022/09/Secador-de-cabello-profesional-Eternal.webp"
+  },
+  {
+      "id": 28,
+      "nombre": "Raspberry Pi 4",
+      "precio": 252700,
+      "categoria": "Electronica",
+      "descripción": "Microordenador Raspberry Pi 4.",
+      "imagen": "https://kb-3d.com/store/2127-large_default/raspberry-pi-4b-single-board-computer-multiple-ram-sizes.jpg"
+  },
+  {
+      "id": 29,
+      "nombre": "Juguete de Construcción",
+      "precio": 147400,
+      "categoria": "Juguetes",
+      "descripción": "Juego de construcción para niños a partir de 5 años.",
+      "imagen": "https://pepeganga.vtexassets.com/arquivos/ids/987334/101083134-2.png?v=638259770574400000"
+  },
+  {
+      "id": 30,
+      "nombre": "Funda de Teléfono",
+      "precio": 63100,
+      "categoria": "Accesorios",
+      "descripción": "Funda protectora para teléfonos móviles.",
+      "imagen": "https://co.tiendasishop.com/cdn/shop/files/IMG-10527063.png?v=1723510276&width=823"
+  },
+  {
+      "id": 31,
+      "nombre": "Termo de Café",
+      "precio": 84200,
+      "categoria": "Accesorios",
+      "descripción": "Termo de acero inoxidable para mantener tu café caliente.",
+      "imagen": "https://www.regalospublicitarios.com/162210-home_default/taza-cafe-termo-pleasuretogo.jpg"
+  },
+  {
+      "id": 32,
+      "nombre": "Juego de Herramientas",
+      "precio": 210600,
+      "categoria": "Hogar",
+      "descripción": "Juego completo de herramientas para bricolaje.",
+      "imagen": "https://colombia.com.co/wp-content/uploads/2023/04/JUEGO-HERRAMIENTAS-X45-PCS-1.png"
+  },
+  {
+      "id": 33,
+      "nombre": "Escoba Electrica",
+      "precio": 379100,
+      "categoria": "Hogar",
+      "descripción": "Escoba eléctrica recargable para una limpieza rápida.",
+      "imagen": "https://maquitecdecolombia.com/wp-content/uploads/2019/06/kb-5-maquitec-de-colombia-01-200x200.png"
+  },
+  {
+      "id": 34,
+      "nombre": "Cojín Decorativo",
+      "precio": 105200,
+      "categoria": "Hogar",
+      "descripción": "Cojín decorativo para tu sala o habitación.",
+      "imagen": "https://pepeganga.vtexassets.com/arquivos/ids/840784-800-auto?v=638035167056600000&width=800&height=auto&aspect=true"
+  },
+  {
+      "id": 35,
+      "nombre": "Cargador Rápido",
+      "precio": 84200,
+      "categoria": "Electronica",
+      "descripción": "Cargador rápido para dispositivos móviles.",
+      "imagen": "https://felixx.com/wp-content/uploads/sites/2/2023/05/TC-25W-PDW.png"
+  },
+  {
+      "id": 36,
+      "nombre": "Jersey de Lana",
+      "precio": 294800,
+      "categoria": "Ropa",
+      "descripción": "Jersey cálido de lana, ideal para el invierno.",
+      "imagen": "https://png.pngtree.com/png-vector/20240724/ourmid/pngtree-soft-wool-beige-jumper-isolated-png-image_13212422.png"
+  },
+  {
+      "id": 37,
+      "nombre": "Bicicleta de Montaña",
+      "precio": 2106500,
+      "categoria": "Deportes",
+      "descripción": "Bicicleta de montaña con marco de aluminio ligero.",
+      "imagen": "https://www.incolmotos-yamaha.com.co/bicicletas/images/ydx-torc/ydx-torc-negra.png"
+  },
+  {
+      "id": 38,
+      "nombre": "Batidora de Mano",
+      "precio": 147400,
+      "categoria": "Cocina",
+      "descripción": "Batidora de mano con múltiples velocidades.",
+      "imagen": "https://www.ultracomb.com.ar/Image/0/750_750-2608_Mesa%20de%20trabajo%2011.png"
+  },
+  {
+      "id": 39,
+      "nombre": "Set de Pinceles",
+      "precio": 84200,
+      "categoria": "Arte",
+      "descripción": "Set de pinceles de diferentes tamaños para pintura.",
+      "imagen": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_400,h_400/https://distribuidoraelfaro.com/wp-content/uploads/2023/08/31135-G1-400x400.png"
+  },
+  {
+      "id": 40,
+      "nombre": "Taza Personalizada",
+      "precio": 67300,
+      "categoria": "Accesorios",
+      "descripción": "Taza de cerámica personalizada.",
+      "imagen": "https://www.ewr.pe/wp-content/uploads/2017/10/taza-hincha.png"
+  },
+  {
+      "id": 41,
+      "nombre": "Pantalones Cortos de Verano",
+      "precio": 126300,
+      "categoria": "Ropa",
+      "descripción": "Pantalones cortos cómodos para el verano.",
+      "imagen": "https://textti.com/wp-content/uploads/2022/06/telas-para-pantalonetas-y-bermudas-por-metro-y-rollo-telas-bogota-1.webp"
+  },
+  {
+      "id": 42,
+      "nombre": "Saco de Dormir",
+      "precio": 294800,
+      "categoria": "Aventura",
+      "descripción": "Saco de dormir ligero y compactable.",
+      "imagen": "https://milisportartigosesportivos.com.br/182-large_default/saco-de-dormir.jpg"
+  },
+  {
+      "id": 43,
+      "nombre": "Cámara Instantánea",
+      "precio": 547600,
+      "categoria": "Electronica",
+      "descripción": "Cámara instantánea para imprimir fotos al instante.",
+      "imagen": "https://d16xich0b1d3yz.cloudfront.net/stories/shopping-guide/polaroid_go_820.png"
+  },
+  {
+      "id": 44,
+      "nombre": "Juego de Té",
+      "precio": 168400,
+      "categoria": "Hogar",
+      "descripción": "Juego de té de porcelana elegante.",
+      "imagen": "https://lalloca.eu/wp-content/uploads/2020/04/la-lloca-juego-te-oriental-plan-toys-1.png"
+  },
+  {
+      "id": 45,
+      "nombre": "Escalera de Mano",
+      "precio": 252700,
+      "categoria": "Hogar",
+      "descripción": "Escalera de mano plegable y ligera.",
+      "imagen": "https://png.pngtree.com/png-vector/20240124/ourmid/pngtree-3d-illustration-step-ladder-in-labour-day-set-png-image_11475288.png"
+  },
+  {
+      "id": 46,
+      "nombre": "Cartera de Cuero",
+      "precio": 210600,
+      "categoria": "Accesorios",
+      "descripción": "Cartera de cuero genuino con múltiples compartimentos.",
+      "imagen": "https://samsonite.com.co/cdn/shop/files/604fdf4e162e9a95970f0ea0a0c6d1631bb05028060521019b5a739e24cfdc13.png?v=1698940606rl_a_la_imagen_46"
+  },
+  {
+      "id": 47,
+      "nombre": "Difusor de Aromas",
+      "precio": 126300,
+      "categoria": "Hogar",
+      "descripción": "Difusor de aromas con luces LED.",
+      "imagen": "https://vitaroms.com/wp-content/uploads/difusor.webp"
+  },
+  {
+      "id": 48,
+      "nombre": "Plancha de Vapor",
+      "precio": 168400,
+      "categoria": "Hogar",
+      "descripción": "Plancha de vapor con suela antiadherente.",
+      "imagen": "https://mastronics.vtexassets.com/arquivos/ids/161030/Plancha-de-Ropa-Black-2BDecker-Vapor-Titanio-Turmalina-D3035-Vinotinto-1.png?v=638425274322170000"
+  },
+  {
+      "id": 49,
+      "nombre": "Cinturón de Cuero",
+      "precio": 126300,
+      "categoria": "Accesorios",
+      "descripción": "Cinturón de cuero de alta calidad.",
+      "imagen": "https://maroc1986.com/cdn/shop/files/MARRUECOS_1986_CINTURON_HOMBRE_CUERO_261055_NEGRO_1.png?v=1716286648&width=1500"
+  },
+  {
+      "id": 50,
+      "nombre": "Organizador de Escritorio",
+      "precio": 105200,
+      "categoria": "Oficina",
+      "descripción": "Organizador de escritorio de madera.",
+      "imagen": "https://static.wixstatic.com/media/aed1f5_7b655b3525b04c8d8a110c70ce361ce7~mv2.png/v1/fill/w_800,h_696,al_c,q_90,enc_auto/aed1f5_7b655b3525b04c8d8a110c70ce361ce7~mv2.png"
+  }
+]
