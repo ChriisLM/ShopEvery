@@ -3,6 +3,7 @@ import products from "../data/productos.json";
 import '../assets/css/Home.css'
 import { useState } from "react";
 import { FilterSection } from "../components/FiltersSection";
+import { TitleSection } from "../components/TitleSection";
 
 function useFilters(){
   const [filters,setFilters] = useState({
@@ -29,7 +30,7 @@ export function Home() {
 
   return (
     <div className="container">
-      <h1>Productos</h1>
+      <TitleSection title='Productos'/>
       <FilterSection filters={setFilters}/>
       <section className="productos-container">
         {filteredProducts.slice(0,9).map((productoInfo) => (

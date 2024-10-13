@@ -9,10 +9,10 @@ export function Header () {
       </div>
       <nav>
         <ul>
-          <li>Home</li>
-          <li>Category</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li>Inicio</li>
+          <li>Categorias</li>
+          <li>Nosotros</li>
+          <li>Contacto</li>
         </ul>
       </nav>
       <div className='icons-container'>

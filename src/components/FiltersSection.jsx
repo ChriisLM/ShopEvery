@@ -26,12 +26,12 @@ export function FilterSection ({filters}) {
     <section className="filters-section">
       <div className="priceFilter-container">
         <label htmlFor="price">Precio Minimo</label>
-        <input type="range" name="price" id="price" min={0} max={2000000} onChange={handleChangeMinPrice}/>
+        <input type="range" className="price-range-input" name="price" id="price" step={10000} min={0} max={2000000} onChange={handleChangeMinPrice}/>
         <span>{minPrice}</span>
       </div>
       <div className="categoryFilter-container">
         <label htmlFor="category">Categoria</label>
-        <select name="category" id="category" onChange={handleChangeCategory}>
+        <select className="category-options-container" name="category" id="category" onChange={handleChangeCategory}>
           <option value="all">Todos</option>
           <option value="Ropa">Ropa</option>
           <option value="Calzado">Calzado</option>

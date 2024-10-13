@@ -1,0 +1,48 @@
+.subtitle-section{
+  display: flex;
+  align-items: center;
+  min-height: 8rem;
+  width: 80%;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+
+.subtitle-container{
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.subtitle-form-1{
+  width: 80px;
+  height: 80px;
+  background-color: sandybrown;
+  opacity: 0.4;
+  border-radius: 0 50% 0 50%;
+  position: absolute;
+  z-index: 0;
+  top: -35px;
+}
+
+.subtitle-form-2{
+  width: 40px;
+  height: 40px;
+  background-color: whitesmoke;
+  border-radius: 0 50% 0 50%;
+  position: absolute;
+  z-index: 1;
+  top: -15px;
+  opacity: .4;
+}
+
+.subtitle-products{
+  position: absolute;
+  z-index: 2;
+  font-family: 'Playfair Display';
+  font-size: 2.5rem;
+  text-transform: capitalize;
+}

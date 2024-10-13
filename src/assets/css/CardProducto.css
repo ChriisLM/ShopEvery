@@ -12,6 +12,7 @@
   padding: 1em;
   border-radius: 10px 10px 0 0;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  overflow: hidden;
 }
 
 .card-image-container::before{
@@ -34,6 +35,11 @@
   object-fit: contain;
   position: relative;
   z-index: 2;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.card-image-container:hover img{
+  transform: scale(1.1)
 }
 
 .card-info-container{
@@ -72,4 +78,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.button-carrito:hover{
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.button-carrito:hover > svg{
+  transform: rotateZ(-10deg);
 }

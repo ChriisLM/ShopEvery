@@ -5,7 +5,9 @@
   padding-inline: 11rem;
   flex-wrap: wrap;
   row-gap: 3em;
-  padding-block: 6rem;
+  padding-bottom: 6rem;
+  padding-top: 3em;
+  min-height: 30rem;
 }
 
 .container{

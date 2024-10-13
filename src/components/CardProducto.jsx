@@ -3,7 +3,7 @@ import { IconCarritoCard } from '../utils/Icons'
 
 export function CardProducto ({producto}) {
 
-  const handleColorDiv =()=>{
+  const handleChoiceColorDiv =()=>{
     const colors = ['C8A2C8','FFD07B','98FB98','87CEFB','FDFD96']
     const randomColor = colors[Math.floor(Math.random()* (4 + 1))]
     return randomColor
@@ -13,7 +13,7 @@ export function CardProducto ({producto}) {
   
   return (
     <div className='card-container'>
-      <div className='card-image-container' style={{backgroundColor:`#${handleColorDiv()}`}}>
+      <div className='card-image-container' style={{backgroundColor:`#${handleChoiceColorDiv()}`}}>
         <img src={producto.imagen} alt={producto.nombre} />
       </div>
       <div className='card-info-container'>
