@@ -4,8 +4,7 @@ import '../assets/css/Home.css'
 import { useState } from "react";
 import { FilterSection } from "../components/FiltersSection";
 
-export function Home() {
-  const [productos,setProductos] = useState(products);
+function useFilters(){
   const [filters,setFilters] = useState({
     category: 'all',
     minPrice: 0
@@ -18,6 +17,13 @@ export function Home() {
       )
     )
   }
+
+  return {filters,filterProducts,setFilters}
+}
+
+export function Home() {
+  const [productos,setProductos] = useState(products);
+  const {filters,filterProducts,setFilters} = useFilters();
 
   const filteredProducts = filterProducts(productos);
 
