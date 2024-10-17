@@ -8,17 +8,45 @@
   z-index: 9;
   height: 30rem;
   border-radius: 15px;
+  overflow-y: scroll;
 }
 
+/*estilos para el scrollbar*/
+
+.carrito-section::-webkit-scrollbar{
+  width: 8px;
+  height: 8px;
+}
+
+.carrito-section::-webkit-scrollbar-thumb{
+  background: #ccc;
+  border-radius: 4px;
+}
+.carrito-section::-webkit-scrollbar-thumb:hover{
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.carrito-section::-webkit-scrollbar-thumb:active{
+  background-color: #999999;
+}
+.carrito-section::-webkit-scrollbar-track{
+  background: #e1e1e1;
+  border-radius: 4px;
+}
+.carrito-section::-webkit-scrollbar-track:hover,
+.carrito-section::-webkit-scrollbar-track:active{
+  background: #d4d4d4;
+}
+
+
 .carrito-items-container{
-  height: 100%;
+  height: auto;
   width: 95%;
   display: flex;
   flex-direction: column;
   align-items: center;
   row-gap: 1em;
   padding-block: 1em;
-  overflow-y: scroll;
   margin: 0 auto;
 }
 
@@ -62,7 +90,7 @@
   position: relative;
   z-index: 2;
   filter: drop-shadow(2px 4px 6px black);
-  padding: .5em;
+  padding: .8em;
 }
 
 .carrito-item-description{
@@ -102,6 +130,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-block: 4em;
 }
 
 .carrito-vacio > svg {
@@ -120,10 +149,16 @@
   align-items: center;
   width: 86px;
   height: 44px;
+  transition: all .3s ease-in-out;
 }
 
 .clearCart-container:hover{
   transform: translateY(-5px);
+}
+
+.clearCart-container > svg{
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
 .clearCart-container:hover > svg {

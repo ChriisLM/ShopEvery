@@ -3,16 +3,10 @@ import { CarritoVacio, DeleteItemsCart } from '../utils/Icons'
 import '../assets/css/CarritoFloat.css'
 
 export function CarritoFloat() {
-  const { cart, removeFromCart, clearCart } = useCart();
+  const { cart, clearCart } = useCart();
 
   function priceFormat(price){
     return new Intl.NumberFormat('es-CO',{ style: 'currency', currency: 'COP' }).format(price);
-  }
-
-  const handleChoiceColorDiv =()=>{
-    const colors = ['C8A2C8','FFD07B','98FB98','87CEFB','FDFD96']
-    const randomColor = colors[Math.floor(Math.random()* (4 + 1))]
-    return randomColor
   }
 
   const clearCarrito = () => {
@@ -26,7 +20,7 @@ export function CarritoFloat() {
           <article className="carrito-item" key={product.id}>
             <div
               className="carrito-item-image-container"
-              style={{ backgroundColor: `#${handleChoiceColorDiv()}` }}
+              style={{ backgroundColor: '#87CEFB' }}
             >
               <img src={product.imagen} alt={product.nombre} />
             </div>

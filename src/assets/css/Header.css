@@ -32,11 +32,15 @@ li:nth-child(1){
 .icons-container{
   display: flex;
   gap: 1.25em;
+  cursor: pointer;
 }
 
 .icons-container>svg{
   width: 1.5em;
   height: auto;
   stroke-width: 1.5;
-  cursor: pointer;
+}
+
+.icons-container>svg:hover{
+  transform: translateY(-4px);
 }

@@ -5,23 +5,8 @@ import { useState } from "react";
 import { FilterSection } from "../components/FiltersSection";
 import { TitleSection } from "../components/TitleSection";
 import { useCart } from "../hooks/useCart";
+import { useFilters } from "../hooks/useFilters";
 
-function useFilters() {
-  const [filters, setFilters] = useState({
-    category: "all",
-    minPrice: 0,
-  });
-
-  const filterProducts = (productos) => {
-    return productos.filter(
-      (producto) =>
-        producto.precio >= filters.minPrice &&
-        (producto.categoria == filters.category || filters.category == "all")
-    );
-  };
-
-  return { filters, filterProducts, setFilters };
-}
 
 export function Home() {
   const [productos, setProductos] = useState(products);

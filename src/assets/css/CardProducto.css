@@ -36,6 +36,7 @@
   position: relative;
   z-index: 2;
   filter: drop-shadow(2px 4px 6px black);
+  transition: all .3s ease-in-out;
 }
 
 .card-image-container:hover img{
@@ -78,6 +79,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all .3s ease-in-out;
 }
 
 .button-carrito:hover{

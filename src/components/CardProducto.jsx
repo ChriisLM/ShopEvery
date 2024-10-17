@@ -1,22 +1,27 @@
+import { useEffect, useState } from 'react'
 import '../assets/css/CardProducto.css'
 import { useCart } from '../hooks/useCart'
 import { IconCarritoCard, IconCarritoCardRemove } from '../utils/Icons'
 
 export function CardProducto ({producto,productInCart}) {
   const {cart,addToCart,removeFromCart} = useCart()
+  const [colorFondo,setColorFondo] = useState('')
 
+  useEffect(() => {
+    const handleChoiceColorDiv =()=>{
+      const colors = ['C8A2C8','FFD07B','98FB98','87CEFB','FDFD96']
+      const randomColor = colors[Math.floor(Math.random()* (4 + 1))]
+      return randomColor
+    }
 
-  const handleChoiceColorDiv =()=>{
-    const colors = ['C8A2C8','FFD07B','98FB98','87CEFB','FDFD96']
-    const randomColor = colors[Math.floor(Math.random()* (4 + 1))]
-    return randomColor
-  }
+    setColorFondo(`#${handleChoiceColorDiv()}`)
+  },[])
 
   const precioProducto = new Intl.NumberFormat('es-CO',{ style: 'currency', currency: 'COP' }).format(producto.precio)
   
   return (
     <div className='card-container'>
-      <div className='card-image-container' style={{backgroundColor:`#${handleChoiceColorDiv()}`}}>
+      <div className='card-image-container' style={{backgroundColor:colorFondo}}>
         <img src={producto.imagen} alt={producto.nombre} />
       </div>
       <div className='card-info-container'>
