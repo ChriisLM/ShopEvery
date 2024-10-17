@@ -1,0 +1,32 @@
+.search-input-container{
+  position: absolute;
+    top: 80px;
+    right: 70px;
+    display: flex;
+}
+.search-input{
+  width: 200px;
+  height: 30px;
+  border: 1px solid gray;
+  border-right: none;
+  outline: none;
+  padding-left: 1em;
+  border-radius: 20px 0 0 20px;
+  font-family: 'Roboto';
+  background-color: floralwhite;
+  font-weight: 500;
+}
+.search-button{
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 50% 50% 0;
+  padding-right: .3em;
+  border: 1px solid gray;
+  background-color: antiquewhite;
+}
+.search-button > svg{
+  width: 16px;
+  height: auto;
+}

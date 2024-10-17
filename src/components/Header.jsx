@@ -1,14 +1,22 @@
-import { CarritoIcon, HeaderIcons } from '../utils/Icons'
+import { CarritoIcon, PerfilIcon, SearchIcon } from '../utils/Icons'
 import '../assets/css/Header.css'
-import { useCart } from '../hooks/useCart';
 import { useState } from 'react';
 import { CarritoFloat } from './CarritoFloat';
+import { SearchInputHeader } from './SearchInputHeader';
+
 
 export function Header () {
-  const {cart} = useCart()
-  const [show, setShow] = useState(false)
-  const handleCartVisualized = () => {
-    setShow(!show)
+  const [stateElements, setStateElements] = useState({
+    perfil: false,
+    search: false,
+    cart: false
+  });
+
+  const toogleShowElements = (element) => {
+    setStateElements(prevState =>({
+      ...prevState,
+      [element]: !prevState[element]
+    }))
   }
 
   return (
@@ -25,9 +33,11 @@ export function Header () {
         </ul>
       </nav>
       <div className='icons-container'>
-        <HeaderIcons/>
-        <CarritoIcon onclick={handleCartVisualized}/>
-        {show && <CarritoFloat/>}
+        <PerfilIcon onclick={() => toogleShowElements('perfil')}/>
+        {stateElements.search && <SearchInputHeader active={stateElements.search} />}
+        <SearchIcon onclick={() => toogleShowElements('search')}/>
+        <CarritoIcon onclick={() => toogleShowElements('cart')}/>
+        {stateElements.cart && <CarritoFloat/>}
       </div>
     </header>
   );
