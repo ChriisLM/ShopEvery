@@ -1,7 +1,10 @@
 import '../assets/css/CardProducto.css'
-import { IconCarritoCard } from '../utils/Icons'
+import { useCart } from '../hooks/useCart'
+import { IconCarritoCard, IconCarritoCardRemove } from '../utils/Icons'
 
-export function CardProducto ({producto}) {
+export function CardProducto ({producto,productInCart}) {
+  const {cart,addToCart,removeFromCart} = useCart()
+
 
   const handleChoiceColorDiv =()=>{
     const colors = ['C8A2C8','FFD07B','98FB98','87CEFB','FDFD96']
@@ -21,8 +24,8 @@ export function CardProducto ({producto}) {
         <p>{precioProducto}</p>
       </div>
       <div className='card-carrito-container'>
-        <div className='button-carrito'>
-          <IconCarritoCard/>
+        <div className='button-carrito' onClick={() => {productInCart ? removeFromCart(producto) : addToCart(producto)}}>
+          {productInCart ? <IconCarritoCardRemove/> : <IconCarritoCard/> }   
         </div>
       </div>
     </div>

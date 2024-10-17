@@ -1,0 +1,131 @@
+
+.carrito-section{
+  position: absolute;
+  background: linear-gradient(0deg, salmon, bisque, salmon);
+  top: 80px;
+  right: 20px;
+  width: 20rem;
+  z-index: 9;
+  height: 30rem;
+  border-radius: 15px;
+}
+
+.carrito-items-container{
+  height: 100%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1em;
+  padding-block: 1em;
+  overflow-y: scroll;
+  margin: 0 auto;
+}
+
+.carrito-item{
+  width: 80%;
+  height: 220px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.carrito-item-image-container{
+  width: 100%;
+  height: 60%;
+  padding: 0;
+  margin: 0;
+  border-radius: 10px 10px 0 0;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  overflow: hidden;
+  position: relative;
+}
+
+.carrito-item-image-container::before{
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 1;
+  background-color: rgb(255 255 255 / 20%);
+  border-radius: 10px 10px 0 0;
+}
+
+.carrito-item-image-container>img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: relative;
+  z-index: 2;
+  filter: drop-shadow(2px 4px 6px black);
+  padding: .5em;
+}
+
+.carrito-item-description{
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: .5em;
+}
+
+.carrito-item-description>h3{
+  font-size: 16px;
+}
+
+.carrito-item-description>span{
+  font-size: 15px;
+
+}
+
+.carrito-item-delete{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: floralwhite;
+}
+
+.carrito-vacio{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carrito-vacio > svg {
+  width: 150px;
+  height: auto;
+  stroke-width: 1;
+}
+
+.clearCart-container{
+  cursor: pointer;
+  background-color: darksalmon;
+  border-radius: 8px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 86px;
+  height: 44px;
+}
+
+.clearCart-container:hover{
+  transform: translateY(-5px);
+}
+
+.clearCart-container:hover > svg {
+  transform: rotateZ(-10deg);
+}

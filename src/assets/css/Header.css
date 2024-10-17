@@ -38,4 +38,5 @@ li:nth-child(1){
   width: 1.5em;
   height: auto;
   stroke-width: 1.5;
+  cursor: pointer;
 }
