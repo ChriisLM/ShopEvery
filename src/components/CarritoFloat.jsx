@@ -20,7 +20,7 @@ export function CarritoFloat() {
           <article className="carrito-item" key={product.id}>
             <div
               className="carrito-item-image-container"
-              style={{ backgroundColor: '#87CEFB' }}
+              style={{ backgroundColor: '#fdfd96' }}
             >
               <img src={product.imagen} alt={product.nombre} />
             </div>

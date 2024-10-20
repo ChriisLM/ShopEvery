@@ -1,0 +1,26 @@
+
+.button-login-container{
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  display: flex;
+  height: 80px;
+  align-items: center;
+}
+
+.button-login{
+  background-color: darksalmon;
+  font-family: 'Open Sans';
+  font-size: .9em;
+  padding-inline: 1.5em;
+  padding-block: .5em;
+  border-radius: 8px;
+  border: 1px solid sienna;
+  font-weight: 600;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.button-login-container:hover{
+  transform: translateY(-5px);
+
+}

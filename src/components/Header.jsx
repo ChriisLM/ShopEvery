@@ -3,6 +3,8 @@ import '../assets/css/Header.css'
 import { useState } from 'react';
 import { CarritoFloat } from './CarritoFloat';
 import { SearchInputHeader } from './SearchInputHeader';
+import { useAccess } from '../hooks/useAccess';
+import { LoginButton } from './LoginButton';
 
 
 export function Header () {
@@ -11,6 +13,7 @@ export function Header () {
     search: false,
     cart: false
   });
+  const {isLogin,loginUser} = useAccess()
 
   const toogleShowElements = (element) => {
     setStateElements(prevState =>({
@@ -33,7 +36,7 @@ export function Header () {
         </ul>
       </nav>
       <div className='icons-container'>
-        <PerfilIcon onclick={() => toogleShowElements('perfil')}/>
+        {isLogin ? <PerfilIcon onclick={() => toogleShowElements('perfil')}/> : <LoginButton onclick={loginUser}/>}
         {stateElements.search && <SearchInputHeader active={stateElements.search} />}
         <SearchIcon onclick={() => toogleShowElements('search')}/>
         <CarritoIcon onclick={() => toogleShowElements('cart')}/>
