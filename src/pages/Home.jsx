@@ -6,7 +6,7 @@ import { FilterSection } from "../components/FiltersSection";
 import { TitleSection } from "../components/TitleSection";
 import { useCart } from "../hooks/useCart";
 import { useFilters } from "../hooks/useFilters";
-
+import { Header } from "../components/Header";
 
 export function Home() {
   const [productos, setProductos] = useState(products);
@@ -20,15 +20,24 @@ export function Home() {
   const filteredProducts = filterProducts(productos);
 
   return (
-    <div className="container">
-      <TitleSection title="Productos" />
-      <FilterSection filters={setFilters} />
-      <section className="productos-container">
-        {filteredProducts.slice(0, 9).map((productoInfo) => {
-          const isProductInCart = checkProduct(productoInfo);
-          return <CardProducto key={productoInfo.id} producto={productoInfo} productInCart={isProductInCart}/>;
-        })}
-      </section>
-    </div>
+    <>
+      <Header />
+      <div className="container">
+        <TitleSection title="Productos" />
+        <FilterSection filters={setFilters} />
+        <section className="productos-container">
+          {filteredProducts.slice(0, 9).map((productoInfo) => {
+            const isProductInCart = checkProduct(productoInfo);
+            return (
+              <CardProducto
+                key={productoInfo.id}
+                producto={productoInfo}
+                productInCart={isProductInCart}
+              />
+            );
+          })}
+        </section>
+      </div>
+    </>
   );
 }

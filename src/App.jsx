@@ -1,14 +1,14 @@
-import { Header } from './components/Header'
+
 import { CartProvider } from './context/cartContext'
 import { UserProvider } from './context/userContext'
-import { Home } from './pages/Home'
+import { RoutesPage } from './routers/routes'
+
 
 function App() {
   return (
     <UserProvider>
       <CartProvider>
-        <Header/>
-        <Home/>
+        <RoutesPage/>
       </CartProvider>
     </UserProvider>
   )
