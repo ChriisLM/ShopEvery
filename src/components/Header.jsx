@@ -13,7 +13,7 @@ export function Header() {
     search: false,
     cart: false,
   });
-  const { isLogin, loginUser } = useAccess();
+  const { isLogin } = useAccess();
 
   const toogleShowElements = (element) => {
     setStateElements((prevState) => ({
@@ -40,7 +40,7 @@ export function Header() {
           <PerfilIcon onclick={() => toogleShowElements("perfil")} />
         ) : (
           <Link to={"/login"}>
-            <LoginButton onclick={loginUser} />
+            <LoginButton/>
           </Link>
         )}
         {stateElements.search && (

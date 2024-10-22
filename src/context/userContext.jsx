@@ -6,14 +6,19 @@ export function UserProvider ({children}){
   const [isLogin, setIsLogin] = useState(false)
   const [settings,setSettings] = useState({})
 
-  const loginUser = () => {
+  const loginChange = () => {
     setIsLogin(!isLogin)
-    console.log(isLogin)
   }
 
-  const registerUser = () => {
-    console.log('registrar usuario');
-    
+  const validateUser = (values) => {
+    const users = JSON.parse(window.localStorage.getItem('users') ) 
+    if(values.email == users.email && values.password == users.password){
+      return true
+    }
+  }
+
+  const registerUser = (user) => {
+    window.localStorage.setItem('users',JSON.stringify(user))
   }
 
   const userSettings = (setting,option) => {
@@ -26,7 +31,8 @@ export function UserProvider ({children}){
   return (
     <UserContext.Provider value={{
       isLogin,
-      loginUser,
+      loginChange,
+      validateUser,
       registerUser,
       settings,
       userSettings
