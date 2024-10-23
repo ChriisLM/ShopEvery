@@ -1,0 +1,42 @@
+.slider-section{
+  height: 350px;
+  width: 100%;
+  margin: 0 auto;
+  padding-block: 1em;
+}
+
+.slider-container{
+  display: flex;
+  background: bisque;
+  height: 300px;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  align-items: center;
+}
+
+.slider-button{
+  font-size: 1.75em;
+  border-radius: 50%;
+  background-color: rgb(211 211 211 / 40%);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.slider-image-container{
+
+}
+
+.button-left{
+  position: absolute;
+  left: 20px;
+}
+
+.button-right{
+  position: absolute;
+  right: 20px;
+}

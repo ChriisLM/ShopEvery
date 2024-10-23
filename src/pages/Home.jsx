@@ -7,6 +7,7 @@ import { TitleSection } from "../components/TitleSection";
 import { useCart } from "../hooks/useCart";
 import { useFilters } from "../hooks/useFilters";
 import { Header } from "../components/Header";
+import { SliderHome } from "../components/SliderHome";
 
 export function Home() {
   const [productos, setProductos] = useState(products);
@@ -23,6 +24,7 @@ export function Home() {
     <>
       <Header />
       <div className="container">
+        <SliderHome/>
         <TitleSection title="Productos" />
         <FilterSection filters={setFilters} />
         <section className="productos-container">
