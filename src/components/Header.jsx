@@ -6,9 +6,11 @@ import { SearchInputHeader } from "./SearchInputHeader";
 import { useAccess } from "../hooks/useAccess";
 import { LoginButton } from "./LoginButton";
 import { Link } from "react-router-dom";
+import { PerfilMenu } from "./PerfilMenu";
 
 export function Header() {
   const [stateElements, setStateElements] = useState({
+    category: false,
     perfil: false,
     search: false,
     cart: false,
@@ -31,8 +33,8 @@ export function Header() {
         <ul>
           <li>Inicio</li>
           <li>Categorias</li>
-          <li>Nosotros</li>
-          <li>Contacto</li>
+          <li><Link to={'/nosotros'}>Nosotros</Link></li>
+          <li><Link to={'/contacto'}>Contacto</Link></li>
         </ul>
       </nav>
       <div className="icons-container">
@@ -43,6 +45,7 @@ export function Header() {
             <LoginButton/>
           </Link>
         )}
+        {stateElements.perfil && <PerfilMenu showElement={toogleShowElements}/>}
         {stateElements.search && (
           <SearchInputHeader active={stateElements.search} />
         )}

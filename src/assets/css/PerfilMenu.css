@@ -1,0 +1,32 @@
+.perfil-menu-section{
+  position: absolute;
+  top: 80px;
+  right: 13%;
+  z-index: 5;
+  background-color: navajowhite;
+  border-radius: 8px;
+}
+
+.perfil-menu-container{
+  display: flex;
+  flex-direction: column;
+  padding-inline: 1.5em;
+}
+
+.perfil-menu-item{
+  font-family: 'Roboto';
+  font-size: 17px;
+  border-bottom: 1px solid;
+  padding-top: .5em;
+  text-align: center;
+}
+
+.perfil-menu-button{
+  font-family: 'Roboto';
+  padding-block: 0.5em;
+}
+
+.perfil-menu-button:hover{
+  transform: translateY(-4px);
+  color: crimson;
+}
