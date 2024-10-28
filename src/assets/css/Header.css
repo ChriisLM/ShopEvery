@@ -6,6 +6,10 @@ header{
   height: 5rem;
 }
 
+.header-title-container{
+  margin-left: 2%;
+}
+
 .header-title-container>h1{
   font-family: 'Playfair Display', sans-serif;
   font-weight: 700;
@@ -35,6 +39,7 @@ li:hover{
 .icons-container{
   display: flex;
   gap: 1.25em;
+  margin-right: 2%;
   cursor: pointer;
 }
 
